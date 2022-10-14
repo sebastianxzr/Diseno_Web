@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/fondo.png);
+}
+header{
+    
+}
+nav{
+    display: flex;
+    justify-content: right;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    color: rgb(5, 70, 8);
+    padding: 0%;
+    margin-right: 30px;
+}
+li:hover{
+    text-decoration: underline;
+}
+.titulo{
+    background: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    color: white;
+}
+.texto{
+    
+}
